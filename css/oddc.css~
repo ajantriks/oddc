@@ -39,6 +39,17 @@ h2 {
 	margin: 30px 0 30px 0;
 	color: #DF5E0E;	
 	padding: 0 0 0 2px;
+	width: 75%;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 30px 0 30px 0;
+	color: #DF5E0E;	
+	padding: 0 0 0 2px;
+	width: 75%;
+	line-height: 22px;
 }
 
 /* Header */
@@ -123,13 +134,21 @@ h2 {
 /* Footer */
 
 #footer {
-	padding: 20px 0;
+	padding: 20px 0 30px 0;
 }
 
 #footer p {
 	font-size: 12px;
 	color: #333;
-	line-height: 10px;
+	line-height: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 363px) {
+	#title {
+		padding-top: 40px
+	}
 }
 
 
