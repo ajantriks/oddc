@@ -1,4 +1,4 @@
-/* General */
+/* Text */
 
 body {
 	padding-top: 50px;
@@ -8,22 +8,31 @@ body {
 	font-weight: 400;
 }
 
-/* Font */
-
 p {
 	padding: 0 0 0 2px;
+	line-height: 24px;
 }
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #333;
 }
 
 a:hover,
 a:active,
 a:focus {
-	text-decoration: underline;
-	color: #DF5E0E;
+	text-decoration: none;
+}
+
+p a {
+	border-bottom: 1px solid #ccc;
+}
+
+p a:hover,
+p a:active,
+p a:focus {
+	color: #333;
+	border-bottom: 1px solid #DF5E0E;
 }
 
 h1 {
@@ -123,18 +132,51 @@ h3 {
 	max-width: 800px;
 }
 
+#content ul {
+	width: 70%;
+	margin-left: 18px;
+	padding-left: 0px;
+} 
+
+#content ul li {
+	margin-bottom: 12px;
+} 
+
+#content ul li a {
+	border-bottom: 1px solid #ccc;
+}
+
+#content ul li a:hover,
+#content ul li a:active,
+#content ul li a:focus {
+	color: #333;
+	border-bottom: 1px solid #DF5E0E;
+}
+
+#content blockquote {
+	border-left: 2px solid #ccc;
+	width: 70%;
+	font-size: 16px;
+	width: 70%;
+	margin-left: 3px;
+	padding: 0px 20px;
+}
+
+/* Logos */
+
 #logos {
 	margin-top: 20px;
 }
 
 #logos img {
 	padding: 0 30px 0 0;
+	margin-bottom: 10px;
 }
 
 /* Footer */
 
 #footer {
-	padding: 20px 0 30px 0;
+	padding: 10px 0 30px 0;
 }
 
 #footer p {
