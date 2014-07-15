@@ -103,10 +103,23 @@ h3 {
 	text-decoration: none;
 }
 
+.dropdown-menu > li > a {
+	clear: both;
+    color: #333;
+    display: block;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
 	background-color: #fff;
 }
+
+
 
 .navbar-inverse .navbar-toggle {
 	border-color: #666;
@@ -207,3 +220,4 @@ img {
 		padding-top: 40px
 	}
 }
+
